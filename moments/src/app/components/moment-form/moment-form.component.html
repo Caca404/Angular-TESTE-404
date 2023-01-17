@@ -15,7 +15,7 @@
     </div>
     <div class="form-group">
         <label for="image">Coloque a foto que mais marcou o <span>Momento</span>:</label>
-        <input type="file" id="image">
+        <input type="file" id="image" (change)="onFileSelected($event)">
     </div>
     <button>{{ btnText }}</button>
 </form>
