@@ -20,6 +20,11 @@
 .moment{
     width: 32%;
     margin-bottom: 1em;
+    text-align: center;
+}
+.moment img{
+    width: 100%;
+    margin-bottom: 1em;
 }
 
 .moment h3, .moment p{
